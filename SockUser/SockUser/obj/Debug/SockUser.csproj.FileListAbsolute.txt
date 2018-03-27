@@ -1,0 +1,9 @@
+C:\xampp\htdocs\WebPageRepo\SockUser\SockUser\bin\Debug\SockUser.exe.config
+C:\xampp\htdocs\WebPageRepo\SockUser\SockUser\bin\Debug\SockUser.exe
+C:\xampp\htdocs\WebPageRepo\SockUser\SockUser\bin\Debug\SockUser.pdb
+C:\xampp\htdocs\WebPageRepo\SockUser\SockUser\obj\Debug\SockUser.Form1.resources
+C:\xampp\htdocs\WebPageRepo\SockUser\SockUser\obj\Debug\SockUser.Properties.Resources.resources
+C:\xampp\htdocs\WebPageRepo\SockUser\SockUser\obj\Debug\SockUser.csproj.GenerateResource.Cache
+C:\xampp\htdocs\WebPageRepo\SockUser\SockUser\obj\Debug\SockUser.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\WebPageRepo\SockUser\SockUser\obj\Debug\SockUser.exe
+C:\xampp\htdocs\WebPageRepo\SockUser\SockUser\obj\Debug\SockUser.pdb
