@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "test";
+$password = "Dogsrock57!";
 $db = "mydb";
 
 // Create connection
@@ -17,14 +17,22 @@ $First = $_POST['FName'];
 $Last = $_POST['LName'];
 $email = $_POST['Email'];
 $pass = $_POST['Password'];
-echo $First, $Last, $email, $pass;
-mysqli_query($conn, "Insert Into customer (FN, LN, Email, Password) Values('i', 'hate', 'this, 'yes')");
 
-/*$CCNum = $_POST['CCNum'];
+$CCNum = $_POST['CCNum'];
 $CCcvs = $_POST['CCCVS'];
 $CDate = $_POST['CDate'];
-mysqli_query($conn, "Insert Into CreditCard (CC#, CVS, cDate) Values($CCNum, $CCcvs, $CDate)");
 
+echo $First, $Last, $email, $pass;
+echo $CCNum, $CCcvs, $CDate;
+mysqli_query($conn, "
+INSERT INTO customer (FN, LN, Email, Password) Values('$First', '$Last', '$email', '$pass');
+");
+
+mysqli_query($conn, "
+INSERT INTO creditcard (CID, CC#, CVS, cDate) Values(SCOPE_IDENTITY(),'$CCNum', '$CCcvs', '$CDate')
+");
+
+/*
 
 $result = mysqli_query($conn,"SELECT * FROM Customer");
 echo "<table border='1'>

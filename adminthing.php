@@ -117,10 +117,41 @@ th {
 
 		<?php
 		$username = "root";	
-		$password = "";
+		$password = "Dogsrock57!";
 		$hostname = "localhost";
-		$dbname = "itemsSold";
+		$dbname = "mydb";
+		
+		
+		
+		
 		$con = mysqli_connect($hostname, $username, $password, $dbname) or die("rip");
+			$table = 'Order';
+
+		if (!mysql_connect($db_host, $db_user, $db_pwd))
+			die("Can't connect to database");
+
+		if (!mysql_select_db($database))
+			die("Can't select database");
+
+		// sending query
+		$result = mysql_query("SELECT * FROM {$table}");
+		if (!$result) {
+			die("Query to show fields from table failed");
+		} 
+
+		$fields_num = mysql_num_fields($result);
+
+		echo "<table border='1'><tr>";
+		// printing table headers
+		for($i=0; $i<$fields_num; $i++)
+		{
+			$field = mysql_fetch_field($result);
+			echo "<td>{$field->name}</td>";
+		}
+		echo "</tr>\n";
+		// printing table rows
+		
+		
 		
 		$result = mysqli_query($con,"SELECT * FROM customer");
 		echo "<table border='1'>
