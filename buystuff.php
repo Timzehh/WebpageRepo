@@ -10,24 +10,18 @@
 	<img src="thanks.jpg" alt="Cute Turtle Socks" style="width:300px;height:150px;">
 	
 	<form action = "phpbuystuff.php" method="POST">
-	<b>Name</b> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-				&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-				&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				<label for="CCN">Credit Card Numbers</label>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				<label for="CCN">CVS</label><br>
+	<b>Name</b><br>
+
 	<label for="FName">First:<abbr title="required"></abbr></label> <input type="text" name="FName"/>
 	<label for="LName">Last :<abbr title="required"></abbr></label> <input type="text" name="LName"/>
-	&nbsp;&nbsp;<input type="text" name="CCN"/>
-	&nbsp;&nbsp;<input type="text" name="CVS" size="4"/>
+
 	<br/><br/>
-	<label for="email">Email:<abbr title="required"></abbr></label> <input type="text" name="email" style="width:300;">
-	<label for="pass"> Password:<abbr title="required"></abbr></label><input type="text" name="pass">
+	<label for="email">Email:<abbr title="required"></abbr></label> <input type="text" name="Email" style="width:300;">
+	<label for="pass"> Password:<abbr title="required"></abbr></label><input type="text" name="Password">
 	<br/><br/>
+	<label for="CCN">Credit Card Number:</label><input type="int" name="CCNum"/>
+	<label for="CVS">CVS:</label><input type="int" name="CCCVS"/>
+	<label for="CDate">Expiration:</label><input type="int" name="CDate"/><br><br>
 	<label for "phn"> Phone Number(optional):</label><br>
 	&nbsp;&nbsp;&nbsp;
 	<input type="int" name="pn1" style="width:30;">-<input type="int" name="pn2"  style="width:30;">-<input type="int" name="pn3" style="width:40;">
