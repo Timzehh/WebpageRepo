@@ -9,7 +9,7 @@
 	<img src="turtle-stripe-socks-teeturtle_800x.jpg" alt="Cute Turtle Socks" style="width:150px;height:150px;">
 	<img src="thanks.jpg" alt="Cute Turtle Socks" style="width:300px;height:150px;">
 	
-	<form action = "newCus.php" method="POST">
+	<form action = "phpbuystuff.php" method="POST">
 	<b>Name</b> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
@@ -121,7 +121,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "Dogsrock57!";
+$password = "aviano12";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password);
